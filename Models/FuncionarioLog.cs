@@ -17,7 +17,7 @@ namespace TrilhaNetAzureDesafio.Models
             base.EmailProfissional = funcionario.EmailProfissional;
             base.Departamento = funcionario.Departamento;
             base.Salario = funcionario.Salario;
-            base.DataAdmissao = funcionario.DataAdmissao;
+            base.DataDeAdmissao = funcionario.DataDeAdmissao;
             TipoAcao = tipoAcao;
             JSON = JsonSerializer.Serialize(funcionario);
             PartitionKey = partitionKey;

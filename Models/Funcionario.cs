@@ -13,7 +13,7 @@ namespace TrilhaNetAzureDesafio.Models
             EmailProfissional = emailProfissional;
             Departamento = departamento;
             Salario = salario;
-            DataAdmissao = dataAdmissao;
+            DataDeAdmissao = dataAdmissao;
         }
 
         public int Id { get; set; }
@@ -23,6 +23,6 @@ namespace TrilhaNetAzureDesafio.Models
         public string EmailProfissional { get; set; }
         public string Departamento { get; set; }
         public decimal Salario { get; set; }
-        public DateTimeOffset? DataAdmissao { get; set; }
+        public DateTimeOffset? DataDeAdmissao { get; set; }
     }
 }
